@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color: rgb(211, 243, 235);">
+    <center><img src="./download - Copy.png"> <br><h1 style="color: rgb(11, 32, 128);"><u>JOB APPLICATION FORM</u></h1></center>
+    <form>
+        <fieldset>
+            <legend><h2>Please fill up this Form:</h2></legend>
+        <p><label for="First Name"><b>First Name:</b></label>
+            <input id="First Name" type="text" name="First Name" required="required" size="15" maxlength="10" placeholder="First Name" /> <br><br>
+        </p>
+        <p><label for="Last Name"><b>Last Name:</b></label>
+            <input id="Last Name" type="text" name="Last Name" required="required" size="15" maxlength="10" placeholder="Last Name" /> <br><br>
+        </p>
+        </p>
+        <p><label for="NIC No. "><b>NIC No. :</b></label>
+           <input id="NIC No. " type="text" name="NIC No. "  required="required"size="15" maxlength="10" placeholder="*****-*******-*" /> <br><br>
+        </p>
+        <p><label for="Mobile No. "><b>Mobile No. :</b></label>
+            <input id="Mobile No. " type="text" name="Mobile No. "  required="required"size="15" maxlength="10" placeholder="****-*******" /> <br><br>
+         </p>
+        <p><label for="Date of Birth"><b>Date of Birth :</b></label>
+            <input id="Date of Birth" type="date" name="Date of Birth" size="15" required="required" placeholder="dd/mm/yy" /> <br><br>
+        </p>
+        <p><b>Qualification:</b> &nbsp;&nbsp;<select name="Qualification" required="required">
+            <option value="Matriculation">Matriculation</option>
+            <option value="Intermidiate">Intermidiate</option>
+            <option value="Undergraduate">Undergraduate</option>
+            <option value="Bachlors">Bachlors</option>
+            <option value="Masters">Masters</option>
+            <option value="Other">Other</option>
+            </select></p> <br>
+        <p><label for="Father Name"><b>Father Name:</b></label>
+            <input id="Father Name" type="text" name="Father Name" size="20" required="required" maxlength="30" placeholder="S/o" /> <br><br>
+        </p>
+        <p><label for="Father's NIC No. "><b>Father's NIC No. :</b></label>
+            <input id="Father's NIC No. " type="text" name="Father's NIC No. " required="required" size="15" maxlength="10" placeholder="*****-*******-*" /> <br><br>
+        </p>
+        <p><label for="Father's Mobile No. "><b>Father's Mobile No. :</b></label>
+            <input id="Father's Mobile No. " type="text" name="Father's Mobile No. " required="required" size="15" maxlength="10" placeholder="****-*******" /> <br><br>
+         </p>
+         <p><b>Religion:</b> &nbsp;&nbsp;<select name="Religion" required="required">
+          <option value="Muslim">Muslim</option>
+          <option value="Hindu">Hindu</option>
+          <option value="Christian">Christian</option>
+          <option value="Others">Others</option>
+          </select></p> <br>
+        <p><label for="Email"><b>Email Address:</b></label>
+            <input id="Email" type="text" name="Email" required="required" size="20" placeholder="Email Address"/> <br><br>
+        </p>
+        <p><label for="Username"><b>Username:</b></label>
+            <input id="Username" type="text" name="Username" size="20" maxlength="20" placeholder="username"/> <br><br>
+        </p>
+        <p><label for="password"><b>Password:</b></label>
+            <input id="password" type="password" name="password" required="required" size="15" maxlength="20" placeholder="password" /><br><br>
+        </p>
+        <p><label for="Confirm password"><b>Confirm password:</b></label>
+            <input id="Confirm password" type="password" required="required" name="Confirm password" size="15" maxlength="20" placeholder="re-type password" /><br><br>
+        </p>
+        <label><b>Age:</b> &nbsp;<input type="text" name="age" size="10" required="required" maxlength="2" placeholder="**"/></label> <br><br>
+        <b>Gender:</b>
+            <input id="Male" type="radio" name="gender" value="m">
+            <label for="Male">Male</label>
+            <input id="female" type="radio" name="gender" value="f">
+            <label for="female">Female</label>
+            <input id="Others" type="radio" name="gender" value="O">
+            <label for="Others">Others</label> <br><br>
+        <p><b>Upload your image:</b></p>
+            <input type="file" name="image" />
+        <p><label for="About you"><b>About you:</b></label></p>
+            <textarea id="About you" name="About you" required="required" rows="3" cols="40" maxlength="100" placeholder="Tell us about you..."></textarea><br> <br>
+        <button style="background-color: aqua;">
+            Upload
+        </button>
+        </fieldset>
+    </form>
+</body>
+</html>
